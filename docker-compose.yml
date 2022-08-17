@@ -2,18 +2,25 @@ version: "3.9"
 services:
 ### METRONET ### METRONET ### METRONET ###
   metronet:
+    image: metronet:1.0
+    container_name: metronet
     volumes:
-    
+      ./website:/usr/local/apache2/htdocs    
     ports:
       - 6130:6130
+      - 6131:6131
 ### SCHEDULER ### SCHEDULER ### SCHEDULER ###
   scheduler:
+    image:
+    container_name: scheduler
     volumes:
 
     ports:
       - 6131:6131
 ### DISPATCHER ### DISPATCHER ### DISPATCHER ###
   dispatcher:
+    image:
+    container_name: dispatcher
     volumes:
     
     ports:
