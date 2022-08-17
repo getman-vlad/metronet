@@ -1,0 +1,20 @@
+version: "3.9"
+services:
+### METRONET ### METRONET ### METRONET ###
+  metronet:
+    volumes:
+    
+    ports:
+      - 6130:6130
+### SCHEDULER ### SCHEDULER ### SCHEDULER ###
+  scheduler:
+    volumes:
+
+    ports:
+      - 6131:6131
+### DISPATCHER ### DISPATCHER ### DISPATCHER ###
+  dispatcher:
+    volumes:
+    
+    ports:
+      - 6132:6132
