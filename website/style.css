@@ -1,0 +1,19 @@
+@font-face {
+	font-family: OldLondon;
+	src: url(oldlondon.ttf);
+}
+@font-face {
+	font-family: RoyalCrescent;
+	src: url(royalcrescent.otf);
+}
+
+#main_title {
+	text-align: center;
+	letter-spacing: 10px;
+	font-family: "RoyalCrescent";
+}
+
+#sub_title {
+	text-align: center;
+	font-family: "RoyalCrescent";
+}
